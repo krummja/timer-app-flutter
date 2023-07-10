@@ -1,0 +1,29 @@
+name: test_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.0
+  oauth2: ^2.0.2
+  url_launcher: ^6.1.11
+  github: ^9.12.0
+  json_annotation: ^4.8.1
+  get_it: ^7.6.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
